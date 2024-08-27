@@ -12,7 +12,7 @@ function App() {
     <ThemeProvider theme={lightTheme}>
       <Container>
         <CssBaseline />
-        <Container sx={{ pt: 20}}>
+        <Container sx={{ pt: 10}}>
           <Outlet />
         </Container>
       </Container>

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
-import HomePage from './app/pages/HomePage'
+import SearchPage from './app/pages/SearchPage'
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         path:"/",
-        element: <HomePage />
+        element: <SearchPage />
       },
     ]
   },
