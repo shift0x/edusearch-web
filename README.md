@@ -1,1 +1,1 @@
-# eduscan-web
+# edusearch
